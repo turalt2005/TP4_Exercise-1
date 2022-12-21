@@ -1,7 +1,7 @@
-class stringfoo:
+class StringFoo:
 
-   def setstring(self, string):
+   def set_string(self, string):
        self.string = string
 
-   def printstring(self):
+   def print_string(self):
        print(str.upper(self.string))
